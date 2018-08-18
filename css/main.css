@@ -1,0 +1,89 @@
+body {
+  color: #666666;
+  font-size: 14px;
+  font-family: Helvetica, sans-serif;
+}
+.outer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+42,ededed+100 */
+  background: #ffffff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 48%, #ededed 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(48%, #ffffff), color-stop(100%, #ededed));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 48%, #ededed 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ffffff 0%, #ffffff 48%, #ededed 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ffffff 0%, #ffffff 48%, #ededed 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 48%, #ededed 100%);
+  /* W3C */
+}
+.inner {
+  position: relative;
+  top: 50%;
+  transform: translateY(-70%);
+}
+.my {
+  margin: 12px auto;
+  text-align: center;
+  width: 300px;
+}
+.my .avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  margin: 8px;
+}
+.my .email {
+  cursor: default;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+}
+.my .name {
+  cursor: default;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  color: #333;
+  font-size: 1.4em;
+}
+.social {
+  margin: 12px auto;
+  text-align: center;
+  width: 300px;
+}
+.social i {
+  font-size: 30px;
+  margin: 8px;
+  color: #c0c0c0;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+.social:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+/*
+ * Social icon-specific
+ */
+.github:hover {
+  color: #333;
+}
+.linkedin:hover {
+  color: #0077B5;
+}
+.facebook:hover {
+  color: #3B5998;
+}
